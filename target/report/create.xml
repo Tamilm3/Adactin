@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="25.360643">
+    <testcase classname="To Validating the room booking functionality in the Adactin Hotel application." name="To validating the room booking functionality in the Adactin Hotel application in Chrome browser." time="25.360643">
+        <system-out><![CDATA[When User have to enter the valid username and valid password...............passed
+And User have to click the login button to get the search hotel page........passed
+And In search hotel page user have to select the locaton in the location dropdown box.passed
+And User have to select a hotel in the hotels dropdown box..................passed
+And User have to select a room types in the room types dropdown box.........passed
+And User have to select a number of rooms in the number of rooms dropdown box.passed
+And User have to enter the check in date....................................passed
+And User have to enter the check out date...................................passed
+And User have to select a number of adult in the adult per room dropdown box.passed
+And User have to select a number of children in the children per room dropdown box.passed
+And User have to click the search box to get the select hotel page..........passed
+And User have to click the filtered hotel radio button......................passed
+And User have to click the countinue button to get the book a hotel page....passed
+And User have to enter the firstname, lastname, billing address, credit card number should be in 16 digit.passed
+And User have to select a credit card type in the credit card type dropdown box.passed
+And User have to select a expiry date in the month and year dropdown box....passed
+And User have to enter the CVV number.......................................passed
+And User have to click the book now button..................................passed
+Then User should get the Booking confirmation page..........................passed
+]]></system-out>
+    </testcase>
+</testsuite>

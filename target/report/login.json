@@ -1,0 +1,307 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-05-21T07:25:46.245Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10329737400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.browserlaunch()"
+            }
+          },
+          {
+            "result": {
+              "duration": 267422800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.maximize()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2770558800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.url()"
+            }
+          },
+          {
+            "result": {
+              "duration": 11587000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.time()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "To validating the room booking functionality in the Adactin Hotel application in Chrome browser.",
+        "description": "",
+        "id": "to-validating-the-room-booking-functionality-in-the-adactin-hotel-application.;to-validating-the-room-booking-functionality-in-the-adactin-hotel-application-in-chrome-browser.",
+        "after": [
+          {
+            "result": {
+              "duration": 586293500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2319512100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User have to enter the valid username and valid password",
+            "match": {
+              "location": "Stepdefination.user_have_to_enter_the_valid_username_and_valid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1210918000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User have to click the login button to get the search hotel page",
+            "match": {
+              "location": "Stepdefination.user_have_to_click_the_login_button_to_get_the_search_hotel_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 606046600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "In search hotel page user have to select the locaton in the location dropdown box",
+            "match": {
+              "location": "Stepdefination.in_search_hotel_page_user_have_to_select_the_locaton_in_the_location_dropdown_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 264777100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User have to select a hotel in the hotels dropdown box",
+            "match": {
+              "location": "Stepdefination.user_have_to_select_a_hotel_in_the_hotels_dropdown_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 255618600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User have to select a room types in the room types dropdown box",
+            "match": {
+              "location": "Stepdefination.user_have_to_select_a_room_types_in_the_room_types_dropdown_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 197651200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User have to select a number of rooms in the number of rooms dropdown box",
+            "match": {
+              "location": "Stepdefination.user_have_to_select_a_number_of_rooms_in_the_number_of_rooms_dropdown_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 215210200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User have to enter the check in date",
+            "match": {
+              "location": "Stepdefination.user_have_to_enter_the_check_in_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 197655300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User have to enter the check out date",
+            "match": {
+              "location": "Stepdefination.user_have_to_enter_the_check_out_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 229641000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User have to select a number of adult in the adult per room dropdown box",
+            "match": {
+              "location": "Stepdefination.user_have_to_select_a_number_of_adult_in_the_adult_per_room_dropdown_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 339429200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User have to select a number of children in the children per room dropdown box",
+            "match": {
+              "location": "Stepdefination.user_have_to_select_a_number_of_children_in_the_children_per_room_dropdown_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 807727400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User have to click the search box to get the select hotel page",
+            "match": {
+              "location": "Stepdefination.user_have_to_click_the_search_box_to_get_the_select_hotel_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 144019400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User have to click the filtered hotel radio button",
+            "match": {
+              "location": "Stepdefination.user_have_to_click_the_filtered_hotel_radio_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 926336800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User have to click the countinue button to get the book a hotel page",
+            "match": {
+              "location": "Stepdefination.user_have_to_click_the_countinue_button_to_get_the_book_a_hotel_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 910252800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User have to enter the firstname, lastname, billing address, credit card number should be in 16 digit",
+            "match": {
+              "arguments": [
+                {
+                  "val": "16",
+                  "offset": 93
+                }
+              ],
+              "location": "Stepdefination.user_have_to_enter_the_firstname_lastname_billing_address_credit_card_number_should_be_in_digit(Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 405523200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User have to select a credit card type in the credit card type dropdown box",
+            "match": {
+              "location": "Stepdefination.user_have_to_select_a_credit_card_type_in_the_credit_card_type_dropdown_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 794281000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User have to select a expiry date in the month and year dropdown box",
+            "match": {
+              "location": "Stepdefination.user_have_to_select_a_expiry_date_in_the_month_and_year_dropdown_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 174855500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User have to enter the CVV number",
+            "match": {
+              "location": "Stepdefination.user_have_to_enter_the_CVV_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 149722600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User have to click the book now button",
+            "match": {
+              "location": "Stepdefination.user_have_to_click_the_book_now_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 217788800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User should get the Booking confirmation page",
+            "match": {
+              "location": "Stepdefination.user_should_get_the_Booking_confirmation_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To Validating the room booking functionality in the Adactin Hotel application.",
+    "description": "",
+    "id": "to-validating-the-room-booking-functionality-in-the-adactin-hotel-application.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Adactin.feature",
+    "tags": []
+  }
+]
